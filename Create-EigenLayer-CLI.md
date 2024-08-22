@@ -9,13 +9,6 @@
 | Storage | 1.5TB SSD (NVMe SSD is recommended) |
 | Operating System	 | 	Linux (tested on Ubuntu 22.04 LTS) |
 
-### Verify CPU feature support by running the following command on Linux:
-```bash
-lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
-  && echo "Supported" \
-  || echo "Not supported"
-```
-
 
 ### 1. Install Docker & Docker compose
 ```bash

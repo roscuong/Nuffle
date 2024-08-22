@@ -98,7 +98,7 @@ eigenlayer operator config create
    
 - Select your signer type: `local_keystore`
   
-- Enter your ecdsa key path: `/root/.eigenlayer/operator_keys/joseph-test1.ecdsa.key.json`
+- Enter your ecdsa key path: `/root/.eigenlayer/operator_keys/roscuong.ecdsa.key.json`
 
 
 ### 8. Edit metadata.json
